@@ -1,5 +1,12 @@
 ### Get all messages
 GET http://localhost:3000/messages
 
-### Get all message By ID
-GET http://localhost:3000/messages/2
+### Get message By ID
+GET http://localhost:3000/messages/4182
+
+### Create a new message
+POST http://localhost:3000/messages
+Content-Type: application/json
+Access-Control-Allow-Headers: Content-Type
+
+{"content": "Hello, World!"}
